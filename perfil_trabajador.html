@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Wok-s</title>
+</head>
+<body>
+    <div class="flex container_menu">
+        <div class="w-50">
+            <a href="inicio_trabajador.html">
+                <img src="https://picsum.photos/200" alt="" class="logo">
+            </a>
+        </div>
+        
+        <div class="w-50 alin_right top top_1024">
+            <a href="preguntas_frec.html" class="menu menu_1024">Preguntas frecuentes</a>
+            <a href="historial.html" class="menu menu_1024">Historial</a>
+            <a href="principal.html" class="menu menu_1024">Cerrar sesión</a>
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <div style="width: 40%; margin: 0 auto;"> 
+        <img src="perfildeusuario.jpg" alt="" style="margin: 0 30%">
+        <br>
+        <button>Cambiar foto de perfil</button>
+        <br>
+        <form>
+            <p class="clasificacion">
+              <input id="radio1" type="radio" name="estrellas" value="5"><!--
+              --><label for="radio1">★</label><!--
+              --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+              --><label for="radio2">★</label><!--
+              --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+              --><label for="radio3">★</label><!--
+              --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+              --><label for="radio4">★</label><!--
+              --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+              --><label for="radio5">★</label>
+            </p>
+          </form>
+          <br>
+          <textarea name="text" id="" cols="65" rows="5"></textarea>
+    </div>
+
+    <h2>Especialidades</h2>
+
+    <div style="width: 40%; margin: 0 auto;">
+        <button style="width: 100px; height: 100px;">Carpinteria</button>
+        <button style="width: 100px; height: 100px;">Plomeria</button>
+        <button style="width: 100px; height: 100px;">Albañileria</button>
+        <button style="width: 100px; height: 100px;">...</button>
+        <br>
+        <button style="width: 100px; height: 100px;">...</button>
+        <button style="width: 100px; height: 100px;">...</button>
+        <button style="width: 100px; height: 100px;">...</button>
+        <button style="width: 100px; height: 100px;">...</button>
+    </div>
+
+    <div>
+        <h2>Fotos</h2>
+        <ul class="galeria">
+            <li><a href="#img1"><img src="https://www.fillmurray.com/260/300"></a></li>
+        </ul>
+    
+        <div class="modal" id="img1">
+            <div class="imagen">
+                <a href="#img4">&#60;</a>
+                <a href="#img2"><img src="https://www.fillmurray.com/260/300"></a>
+                <a href="#img2">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+        
+        <div class="modal" id="img2">
+            <div class="imagen">
+                <a href="#img1">&#60;</a>
+                <a href="#img3"><img src="https://www.placecage.com/c/260/300"></a>
+                <a href="#img3">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+        
+        <div class="modal" id="img3">
+            <div class="imagen">
+                <a href="#img2">&#60;</a>
+                <a href="#img4"><img src="http://placekitten.com/260/300"></a>
+                <a href="#img4">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+    </div>
+
+    <h2>Reseñas</h2>
+
+    <div class="flex" style="width: 30%; margin: 0 auto;">
+        <div class="w-50">
+            
+            <img src="perfildeusuario.jpg" alt="" style="width: 35%; height: 35%;">
+            
+            <p class="clasificacion">
+                <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                --><label for="radio1">★</label><!--
+                --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+                --><label for="radio2">★</label><!--
+                --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+                --><label for="radio3">★</label><!--
+                --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+                --><label for="radio4">★</label><!--
+                --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+                --><label for="radio5">★</label>
+            </p>
+        </div>
+
+        <div class="w-50">
+
+            <div>
+                <textarea name="text" id="" cols="40" rows="5"></textarea>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

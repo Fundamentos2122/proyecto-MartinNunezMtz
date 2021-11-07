@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Wok-s</title>
+</head>
+<body>
+    <div class="flex container_menu">
+        <div class="w-50">
+            <a href="inicio_solicitante.html">
+                <img src="https://picsum.photos/200" alt="" class="logo">
+            </a>
+        </div>
+
+        <div class="w-50 alin_right top top_1024">
+            <a href="preguntas_frec.html" class="menu menu_1024">Preguntas frecuentes</a>
+            <a href="historial.html" class="menu menu_1024">Historial</a>
+            <a href="principal.html" class="menu menu_1024">Cerrar sesión</a>
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <h2 class="subtitulo">Solicitar</h2>
+
+    <br><br><br>
+
+    <div style="width: 70%; margin: 0 auto;">
+        <div>
+            <h3>Agregar la descripción detallada de lo que se requiere</h3>
+            <br>
+            <textarea name="text" id="" cols="100%" rows="5"></textarea>
+        </div>
+
+        <div>
+            <h3>Agregar Fotos</h3>
+
+            <ul class="galeria">
+                <li><a href="#img1"><img src="https://www.fillmurray.com/260/300"></a></li>
+            </ul>
+        
+            <div class="modal" id="img1">
+                <div class="imagen">
+                    <a href="#img4">&#60;</a>
+                    <a href="#img2"><img src="https://www.fillmurray.com/260/300"></a>
+                    <a href="#img2">></a>
+                </div>
+                <a class="cerrar" href="">X</a>
+            </div>
+            
+            <div class="modal" id="img2">
+                <div class="imagen">
+                    <a href="#img1">&#60;</a>
+                    <a href="#img3"><img src="https://www.placecage.com/c/260/300"></a>
+                    <a href="#img3">></a>
+                </div>
+                <a class="cerrar" href="">X</a>
+            </div>
+            
+            <div class="modal" id="img3">
+                <div class="imagen">
+                    <a href="#img2">&#60;</a>
+                    <a href="#img4"><img src="http://placekitten.com/260/300"></a>
+                    <a href="#img4">></a>
+                </div>
+                <a class="cerrar" href="">X</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
